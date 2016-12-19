@@ -1,0 +1,51 @@
+div.container {
+	background: no-repeat center center cover;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.gallery img {
+    width: 500px;
+    height: 250px;
+    border-width: 4px 4px 4px 4px;
+    border-style: double;
+    border-color: Violet ;
+}
+
+header, footer {
+    padding: 1em;
+    color: DeepPink ;
+    background-color: DeepSkyBlue;
+    clear: both;
+    text-align: center;
+	opacity: 0.8;
+}
+
+nav {
+    float: left;
+    max-width: 390px;
+	max-height: 480px;
+    margin-right:10px;
+	line-height:1.8;
+	color:cyan;
+    padding: em;
+}
+
+nav ul {
+    list-style-type: circle;
+    padding: 1;
+}
+			
+nav ul a {
+    text-decoration: none;
+	color:Cyan;
+
+}
+
+article {	
+    margin-left: 190px;
+    border-left: 2px solid gray ;
+    padding: 1em;
+	color: white;
+    overflow: hidden;
+}
